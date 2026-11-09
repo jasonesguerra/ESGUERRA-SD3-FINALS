@@ -1,0 +1,247 @@
+{
+  "workOrders": [
+    {
+      "id": "WO-652135",
+      "title": "PC Monitor",
+      "facility": "Puno Hall",
+      "category": "Equipment",
+      "priority": "Medium",
+      "status": "In progress",
+      "assignedTo": "Unassigned",
+      "floor": 2,
+      "roomNumber": "03",
+      "reportedBy": "Facilities Desk",
+      "createdAt": "2026-11-08",
+      "dueAt": "2026-11-11",
+      "description": "Not turning on"
+    },
+    {
+      "id": "WO-2048",
+      "title": "Replace flickering corridor lights",
+      "facility": "Ryan Hall",
+      "category": "Electrical",
+      "priority": "High",
+      "status": "In progress",
+      "assignedTo": "Lanz Macapagal",
+      "reportedBy": "Facilities Desk",
+      "createdAt": "2026-11-05",
+      "dueAt": "2026-11-08",
+      "floor": 2,
+      "roomNumber": "04",
+      "description": "Two fixtures on the second-floor east corridor are flickering."
+    },
+    {
+      "id": "WO-2047",
+      "title": "Repair air conditioning unit",
+      "facility": "Puno Hall",
+      "category": "HVAC",
+      "priority": "Urgent",
+      "status": "Requested",
+      "assignedTo": "Unassigned",
+      "reportedBy": "Prof. Santos",
+      "createdAt": "2026-11-06",
+      "dueAt": "2026-11-07",
+      "floor": 2,
+      "roomNumber": "04",
+      "description": "Room 04 on floor 2 is not cooling during afternoon laboratory sessions."
+    },
+    {
+      "id": "WO-2046",
+      "title": "Inspect water pressure",
+      "facility": "University Gymnasium",
+      "category": "Plumbing",
+      "priority": "Medium",
+      "status": "Scheduled",
+      "assignedTo": "Jason Esguerra",
+      "reportedBy": "Athletics Office",
+      "createdAt": "2026-11-04",
+      "dueAt": "2026-11-09",
+      "floor": 1,
+      "roomNumber": "03",
+      "description": "Check low water pressure in the locker room showers."
+    },
+    {
+      "id": "WO-2045",
+      "title": "Service library printer",
+      "facility": "Assumption Building",
+      "category": "Equipment",
+      "priority": "Low",
+      "status": "Completed",
+      "assignedTo": "Lanz Macapagal",
+      "reportedBy": "Library Staff",
+      "createdAt": "2026-11-02",
+      "dueAt": "2026-11-05",
+      "floor": 1,
+      "roomNumber": "02",
+      "description": "Replace toner and clear paper feed."
+    },
+    {
+      "id": "WO-2044",
+      "title": "Secure loose classroom door handle",
+      "facility": "Assumption Building",
+      "category": "Carpentry",
+      "priority": "Medium",
+      "status": "Requested",
+      "assignedTo": "Unassigned",
+      "reportedBy": "Student Services",
+      "createdAt": "2026-11-01",
+      "dueAt": "2026-11-06",
+      "floor": 3,
+      "roomNumber": "01",
+      "description": "Door handle is loose in room 01 on floor 3."
+    }
+  ],
+  "facilities": [
+    {
+      "id": "FAC-01",
+      "name": "Ryan Hall",
+      "type": "Academic",
+      "location": "North Campus",
+      "area": "4,820 m²",
+      "condition": "Good",
+      "openOrders": 2
+    },
+    {
+      "id": "FAC-02",
+      "name": "Puno Hall",
+      "type": "Academic",
+      "location": "Central Campus",
+      "area": "3,640 m²",
+      "condition": "Attention",
+      "openOrders": 3
+    },
+    {
+      "id": "FAC-03",
+      "name": "Assumption Building",
+      "type": "Academic",
+      "location": "Central Campus",
+      "area": "2,150 m²",
+      "condition": "Good",
+      "openOrders": 2
+    },
+    {
+      "id": "FAC-04",
+      "name": "University Gymnasium",
+      "type": "Recreation",
+      "location": "South Campus",
+      "area": "5,300 m²",
+      "condition": "Good",
+      "openOrders": 2
+    }
+  ],
+  "equipment": [
+    {
+      "id": "EQ-1108",
+      "name": "Split-type AC, 2.5 HP",
+      "assetTag": "UA-HVAC-1108",
+      "facility": "Puno Hall",
+      "location": "Floor 2, Room 04",
+      "condition": "Needs service",
+      "nextService": "2026-11-10"
+    },
+    {
+      "id": "EQ-1072",
+      "name": "Diesel generator, 80 kVA",
+      "assetTag": "UA-PWR-1072",
+      "facility": "Ryan Hall",
+      "location": "Utility room",
+      "condition": "Operational",
+      "nextService": "2026-11-18"
+    },
+    {
+      "id": "EQ-0951",
+      "name": "Water pump, 3 HP",
+      "assetTag": "UA-PLB-0951",
+      "facility": "University Gymnasium",
+      "location": "Pump room",
+      "condition": "Operational",
+      "nextService": "2026-11-21"
+    },
+    {
+      "id": "EQ-0834",
+      "name": "Large-format printer",
+      "assetTag": "UA-IT-0834",
+      "facility": "Assumption Building",
+      "location": "Print station",
+      "condition": "Operational",
+      "nextService": "2026-12-02"
+    },
+    {
+      "id": "EQ-0785",
+      "name": "Elevator, 1,000 kg",
+      "assetTag": "UA-LFT-0785",
+      "facility": "Ryan Hall",
+      "location": "Main wing",
+      "condition": "Operational",
+      "nextService": "2026-11-12"
+    }
+  ],
+  "staff": [
+    {
+      "id": "ST-01",
+      "name": "Lanz Macapagal",
+      "role": "Electrical technician",
+      "activeOrders": 3,
+      "status": "On duty"
+    },
+    {
+      "id": "ST-02",
+      "name": "Jason Esguerra",
+      "role": "Plumbing specialist",
+      "activeOrders": 2,
+      "status": "On duty"
+    },
+    {
+      "id": "ST-03",
+      "name": "Kiean Gonzales",
+      "role": "HVAC technician",
+      "activeOrders": 1,
+      "status": "On duty"
+    },
+    {
+      "id": "ST-04",
+      "name": "Angelo Pascual",
+      "role": "Facilities coordinator",
+      "activeOrders": 4,
+      "status": "On duty"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "PT-01",
+      "name": "LED tube light, 18 W",
+      "sku": "ELEC-LED-018",
+      "quantity": 42,
+      "unit": "pcs",
+      "reorderAt": 20,
+      "location": "Central storeroom"
+    },
+    {
+      "id": "PT-02",
+      "name": "Air filter, 20 × 20 in",
+      "sku": "HVAC-FLT-2020",
+      "quantity": 8,
+      "unit": "pcs",
+      "reorderAt": 12,
+      "location": "Central storeroom"
+    },
+    {
+      "id": "PT-03",
+      "name": "PVC elbow, ½ in",
+      "sku": "PLB-PVC-050",
+      "quantity": 26,
+      "unit": "pcs",
+      "reorderAt": 15,
+      "location": "Plumbing cabinet"
+    },
+    {
+      "id": "PT-04",
+      "name": "Printer toner, black",
+      "sku": "IT-TNR-BLK",
+      "quantity": 5,
+      "unit": "pcs",
+      "reorderAt": 6,
+      "location": "IT storeroom"
+    }
+  ]
+}
